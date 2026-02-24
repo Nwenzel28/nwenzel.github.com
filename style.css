@@ -132,7 +132,7 @@ h2 {
   background-color: #f9f9f9;
   padding: 25px 1in;  /* more padding + full width */
   margin: 0 -1in 20px -1in; /* stretch to page edge */
-  font-size: 15pt;
+  font-size: 12pt;
   font-weight: 400;
 }
 
@@ -147,7 +147,7 @@ ul {
 
 li {
   margin: 10px 0;
-  font-size: 15pt;
+  font-size: 12pt;
 }
 
 a {
