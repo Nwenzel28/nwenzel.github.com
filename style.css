@@ -1,64 +1,122 @@
+/* ============================= */
+/* Base Layout */
+/* ============================= */
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
   margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #000000;
 }
 
+/* ============================= */
+/* Header */
+/* ============================= */
+
 header {
+  background-color: #ffffff;
   text-align: center;
-  padding: 40px 20px;
-  background-color: white;
-  border-bottom: 1px solid #ddd;
+  padding: 50px 20px 30px 20px;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 h1 {
   margin: 0;
-  color: #2c6e91;
-  font-size: 42px;
+  font-size: 45pt;
+  font-weight: 300;
+  color: #226f93;
 }
 
+/* ============================= */
+/* Navigation */
+/* ============================= */
+
 nav {
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 20px;
   text-decoration: none;
-  color: #1a73a8;
-  font-weight: bold;
+  font-size: 15pt;
+  color: #000000;
+  font-weight: 400;
+}
+
+nav a.active {
+  font-weight: 700;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  max-width: 700px;
-  margin: 40px auto;
+/* ============================= */
+/* Banner */
+/* ============================= */
+
+.banner {
+  background-color: #d9edf7; /* light blue */
+  padding: 20px;
+  text-align: center;
+  font-size: 15pt;
+  color: #000000;
 }
+
+/* ============================= */
+/* Main Content */
+/* ============================= */
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* ============================= */
+/* Section Headers */
+/* ============================= */
 
 section {
   margin-bottom: 40px;
 }
 
 h2 {
-  color: #555;
+  background-color: #f9f9f9;
+  padding: 12px 15px;
+  font-size: 15pt;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
+/* ============================= */
+/* Lists */
+/* ============================= */
+
 ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
+  padding-left: 15px;
 }
 
 li {
   margin: 8px 0;
+  font-size: 15pt;
 }
 
 a {
-  color: #1a73a8;
+  color: #000000;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* ============================= */
+/* Paragraphs */
+/* ============================= */
+
+p {
+  font-size: 15pt;
+  margin: 10px 0;
 }
