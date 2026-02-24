@@ -7,7 +7,7 @@ body {
   font-family: 'Lato', sans-serif;
   background-color: #ffffff;
   color: #000000;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 12pt;
 
 }
@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0.5in 0 0.5in; /* 0.5 inch margin */
+  padding: 20px 0.5in 0 0.25in; /* 0.5 inch margin */
 }
 
 /* Top Left Text */
@@ -123,7 +123,7 @@ h1 {
 /* ============================= */
 
 main {
-  padding: 60px 1in; /* 1 inch margin */
+  padding: 60px 1.5in; /* 1 inch margin */
 }
 
 /* ============================= */
