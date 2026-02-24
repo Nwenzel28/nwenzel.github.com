@@ -10,45 +10,54 @@ body {
 }
 
 /* ============================= */
-/* Header */
+/* Sticky Header */
 /* ============================= */
 
 header {
   background-color: #ffffff;
-  text-align: center;
-  padding: 50px 20px 30px 20px;
+  padding: 20px 40px 40px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   border-bottom: 1px solid #e0e0e0;
 }
 
-h1 {
-  margin: 0;
-  font-size: 45pt;
-  font-weight: 300;
-  color: #226f93;
-}
-
 /* ============================= */
-/* Navigation */
+/* Top Navigation */
 /* ============================= */
 
-nav {
-  margin-top: 20px;
+.top-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 30px;
+  margin-bottom: 20px;
 }
 
-nav a {
-  margin: 0 20px;
+.top-nav a {
   text-decoration: none;
   font-size: 15pt;
   color: #000000;
   font-weight: 400;
 }
 
-nav a.active {
+.top-nav a.active {
   font-weight: 700;
 }
 
-nav a:hover {
+.top-nav a:hover {
   text-decoration: underline;
+}
+
+/* ============================= */
+/* Title */
+/* ============================= */
+
+h1 {
+  margin: 0;
+  font-size: 45pt;
+  font-weight: 300;
+  color: #226f93;
+  text-align: left;
 }
 
 /* ============================= */
@@ -56,7 +65,7 @@ nav a:hover {
 /* ============================= */
 
 .banner {
-  background-color: #d9edf7; /* light blue */
+  background-color: #d9edf7;
   padding: 20px;
   text-align: center;
   font-size: 15pt;
@@ -69,7 +78,7 @@ nav a:hover {
 
 main {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 60px auto;
   padding: 0 20px;
 }
 
@@ -112,11 +121,6 @@ a:hover {
   text-decoration: underline;
 }
 
-/* ============================= */
-/* Paragraphs */
-/* ============================= */
-
 p {
   font-size: 15pt;
-  margin: 10px 0;
 }
