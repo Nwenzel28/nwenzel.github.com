@@ -29,7 +29,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 1in 0 1in; /* 1 inch margin */
+  padding: 20px 0.5in 0 0.5in; /* 0.5 inch margin */
 }
 
 /* Top Left Text */
@@ -54,7 +54,8 @@ header {
 }
 
 .top-nav a:hover {
-  text-decoration: underline;
+  tfont-weight: 450; /* Bold hovered page */
+}
 }
 
 /* ============================= */
@@ -76,8 +77,9 @@ h1 {
 
 .banner {
   background-color: #d9edf7;
-  padding: 25px 1in;
+  padding: 20px 1in;
   font-size: 12pt;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,16 +88,16 @@ h1 {
 .banner-btn {
   border: 2px solid #333;
   padding: 10px 20px;
-  font-size: 13pt;
+  font-size: 12pt;
   text-decoration: none;
   color: #333;
   white-space: nowrap;
-  margin-left: 30px;
+  margin-left: 20px;
   border-radius: 8px;
 }
 
 .banner-btn:hover {
-  background-color: #333;
+  background-color: #456;
   color: #fff;
 }
 
