@@ -15,10 +15,8 @@ body {
 
 header {
   background-color: #ffffff;
-  position: sticky;
-  top: 0;
   z-index: 1000;
-  padding-bottom: 30px;
+  padding-bottom: 0;
   border-bottom: 1px solid #e0e0e0;
 }
 
@@ -61,11 +59,12 @@ header {
 /* ============================= */
 
 h1 {
-  margin: 20px 0 0 0;
-  font-size: 45pt;
+  margin: 0;
+  font-size: 55pt;
   font-weight: 300;
   color: #226f93;
   text-align: center;
+  flex: 1;
 }
 
 /* ============================= */
@@ -74,8 +73,44 @@ h1 {
 
 .banner {
   background-color: #d9edf7;
-  padding: 20px 1in;
+  padding: 15px 1in;
   font-size: 15pt;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner-btn {
+  border: 2px solid #333;
+  padding: 10px 20px;
+  font-size: 13pt;
+  text-decoration: none;
+  color: #333;
+  white-space: nowrap;
+  margin-left: 30px;
+  border-radius: 2px;
+}
+
+.banner-btn:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* ============================= */
+/* Hero Section */
+/* ============================= */
+
+.hero {
+  display: flex;
+  align-items: center;
+  padding: 60px 1in;
+  min-height: 200px;
+}
+
+.hero-side {
+  width: 200px;
+  font-size: 13pt;
+  flex-shrink: 0;
 }
 
 /* ============================= */
