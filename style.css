@@ -44,7 +44,7 @@ header {
 .top-nav a {
   margin-left: 30px;
   text-decoration: none;
-  font-size: 13pt;
+  font-size: 11pt;
   font-weight: 300; /* Light by default */
   color: #000000; /* Same as title */
 }
@@ -76,23 +76,25 @@ h1 {
 
 .banner {
   background-color: #d9edf7;
-  padding: 13px 1in;
-  font-size: 12pt;
+  padding: 10px 1in;
+  font-size: 10pt;
   font-weight: 400;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 12px;
 }
 
 .banner-btn {
   border: 1.25px solid #333;
-  padding: 10px 20px;
-  font-size: 12pt;
+  padding: 6px 14px;
+  font-size: 10pt;
   text-decoration: none;
   color: #333;
   white-space: nowrap;
-  margin-left: 7px;
+  margin-left: 0;
   border-radius: 6px;
+  flex-shrink: 0;
 }
 
 .banner-btn:hover {
@@ -105,16 +107,30 @@ h1 {
 /* ============================= */
 
 .hero {
+  position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
   padding: 60px 1in;
   min-height: 200px;
+}
+
+.hero h1 {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  pointer-events: none;
 }
 
 .hero-side {
   width: 200px;
   font-size: 13pt;
   flex-shrink: 0;
+  align-self: center;
+  position: relative;
+  z-index: 1;
+  margin-right: auto;
 }
 
 /* ============================= */
@@ -131,10 +147,38 @@ main {
 
 h2 {
   background-color: #f9f9f9;
-  padding: 25px 1in;  /* more padding + full width */
-  margin: 0 -1.75in 20px -1.75in; /* stretch to page edge */
+  padding: 25px 1in;
+  margin: 0 -1.75in 20px -1.75in;
   font-size: 12pt;
   font-weight: 400;
+}
+
+/* ============================= */
+/* Section Layout (class inline) */
+/* ============================= */
+
+section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+section h2 {
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: 160px;
+  min-width: 160px;
+  font-size: 12pt;
+  font-weight: 600;
+  padding-top: 2px;
+  color: #333;
+}
+
+section ul {
+  flex: 1;
+  padding-left: 0;
+  margin: 0;
 }
 
 /* ============================= */
@@ -147,7 +191,7 @@ ul {
 }
 
 li {
-  margin: 10px 0;
+  margin: 16px 0;
   font-size: 12pt;
 }
 
