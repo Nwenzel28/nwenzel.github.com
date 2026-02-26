@@ -78,7 +78,7 @@ h1 {
   background-color: #d9edf7;
   padding: 10px 1in;
   font-size: 10pt;
-  font-weight: 400;
+  font-weight: 300;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -86,14 +86,15 @@ h1 {
 }
 
 .banner-btn {
-  border: 1.25px solid #333;
-  padding: 6px 14px;
+  border: 2px solid #333;
+  padding: 7px 16px;
   font-size: 10pt;
+  font-weight: 400;
   text-decoration: none;
   color: #333;
   white-space: nowrap;
-  margin-left: -6px;
-  border-radius: 6px;
+  margin-left: 0;
+  border-radius: 4px;
   flex-shrink: 0;
 }
 
@@ -125,7 +126,7 @@ h1 {
 
 .hero-side {
   width: 200px;
-  font-size: 12pt;
+  font-size: 13pt;
   flex-shrink: 0;
   align-self: center;
   position: relative;
@@ -146,52 +147,32 @@ main {
 /* ============================= */
 
 h2 {
-  background-color: #f9f9f9;
-  padding: 25px 1in;
-  margin: 0 -1.75in 20px -1.75in;
+  background-color: #f0f0f0;
+  padding: 18px 1.75in;
+  margin: 30px -1.75in 10px -1.75in;
   font-size: 12pt;
   font-weight: 400;
 }
 
 /* ============================= */
-/* Section Layout (class inline) */
+/* Section Layout */
 /* ============================= */
 
 section {
-  display: flex;
-  align-items: flex-start;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
-section h2 {
-  background: none;
-  padding: 0;
-  margin: 0;
-  width: 160px;
-  min-width: 160px;
-  font-size: 12pt;
-  font-weight: 600;
-  padding-top: 2px;
-  color: #333;
-}
-
-section ul {
-  flex: 1;
-  padding-left: 0;
-  margin: 0;
+ul {
+  list-style: none;
+  padding-left: 1in;
 }
 
 /* ============================= */
 /* Lists */
 /* ============================= */
 
-ul {
-  list-style: none;
-  padding-left: 0;
-}
-
 li {
-  margin: 18px 0;
+  margin: 16px 0;
   font-size: 12pt;
 }
 
