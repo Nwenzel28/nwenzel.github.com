@@ -92,7 +92,7 @@ h1 {
   text-decoration: none;
   color: #333;
   white-space: nowrap;
-  margin-left: 0;
+  margin-left: -6px;
   border-radius: 6px;
   flex-shrink: 0;
 }
@@ -125,7 +125,7 @@ h1 {
 
 .hero-side {
   width: 200px;
-  font-size: 13pt;
+  font-size: 12pt;
   flex-shrink: 0;
   align-self: center;
   position: relative;
@@ -191,7 +191,7 @@ ul {
 }
 
 li {
-  margin: 16px 0;
+  margin: 18px 0;
   font-size: 12pt;
 }
 
