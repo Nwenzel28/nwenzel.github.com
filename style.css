@@ -20,7 +20,7 @@ header {
   background-color: #ffffff;
   z-index: 1000;
   padding-bottom: 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 0px solid #e0e0e0;
 }
 
 /* Top Row (Site name + Nav) */
@@ -82,12 +82,12 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 37px;
-  min-height: 25px;
+  gap: 28px;
+  min-height: 20px;
 }
 
 .banner-btn {
-  border: 0.5px solid #333;
+  border: 1px solid #333;
   padding: 7px 24px;
   font-size: 11pt;
   font-weight: 500;
@@ -114,7 +114,7 @@ h1 {
   align-items: center;
   justify-content: center;
   padding: 60px 1in;
-  min-height: 200px;
+  min-height: 150px;
 }
 
 .hero h1 {
