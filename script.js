@@ -7,20 +7,20 @@ const portfolios = [
   {
     year: "Class of 2026",
     students: [
-      { name: "Ryder Kawachika", link: "#" },
-      { name: "Mason Domion", link: "#" },
-      { name: "Tyler Wee", link: "#" },
-      { name: "Kalai Kelekolio", link: "#" },
-      { name: "Kaleo Fleming", link: "#" },
-      { name: "Alex Woo", link: "#" },
-      { name: "Ben Watanabe", link: "#" },
-      { name: "Malia McCoy", link: "#" },
-      { name: "Tayven Cho", link: "#" },
-      { name: "Liam Snyder", link: "#" },
-      { name: "Io Keehu", link: "#" },
-      { name: "Daniel Schohen", link: "#" },
-      { name: "Kaleo Hayase", link: "#" },
-      { name: "Connor Yunker", link: "#" }
+      { name: "Ryder Kawachika", link: "https://sites.google.com/punahou.edu/ryder-kawachika-engineering/home" },
+      { name: "Mason Domion", link: "https://sites.google.com/punahou.edu/mason-domion/home" },
+      { name: "Tyler Wee", link: "https://sites.google.com/punahou.edu/tylerwee-portfolio/welcome" },
+      { name: "Kalai Kelekolio", link: "https://sites.google.com/punahou.edu/kalai-kelekolio-portfolio/home" },
+      { name: "Kaleo Fleming", link: "https://sites.google.com/punahou.edu/kfleming26engineeringportfolio/home" },
+      { name: "Alex Woo", link: "https://sites.google.com/punahou.edu/awoo26-engineering-portfolio/home" },
+      { name: "Ben Watanabe", link: "https://sites.google.com/punahou.edu/benjaminwatanabesportfolio/home" },
+      { name: "Malia McCoy", link: "https://sites.google.com/punahou.edu/maliamccoyengineeringprojects/home" },
+      { name: "Tayven Cho", link: "https://sites.google.com/punahou.edu/tayven-cho-engineering-project/home-types-of-engineering" },
+      { name: "Liam Snyder", link: "https://sites.google.com/punahou.edu/gsd102liamsnyderdigitalportfol/home" },
+      { name: "Io Keehu", link: "https://sites.google.com/punahou.edu/ios-portfolio/home" },
+      { name: "Daniel Schohen", link: "https://sites.google.com/punahou.edu/danielschoenportfolio/home" },
+      { name: "Kaleo Hayase", link: "https://sites.google.com/punahou.edu/kaleoportfolio/home" },
+      { name: "Connor Yunker", link: "https://sites.google.com/punahou.edu/cyunker-engineering-profile/home" }
     ]
   },
 
@@ -74,21 +74,21 @@ const portfolios = [
   {
     year: "Class of 2029",
     students: [
-      { name: "Hudsen Wong", link: "#" },
-      { name: "Gabe Warwick", link: "#" },
-      { name: "Clara Elham", link: "#" },
-      { name: "Keanu Kim", link: "#" },
-      { name: "Whitley Waki", link: "#" }
+      { name: "Hudsen Wong", link: "https://sites.google.com/punahou.edu/hudsenwongengineeringportfolio/home" },
+      { name: "Gabe Warwick", link: "https://sites.google.com/punahou.edu/gsd-portfolio-gabe/home" },
+      { name: "Clara Elham", link: "https://sites.google.com/punahou.edu/claras-engineering-portfolio/home" },
+      { name: "Keanu Kim", link: "https://sites.google.com/punahou.edu/kkim-gsd/home" },
+      { name: "Whitley Waki", link: "https://sites.google.com/punahou.edu/whitleywakigsdportfolio/home" }
     ]
   },
 
   {
     year: "Other",
     students: [
-      { name: "Isiah Tanaka ('25)", link: "#" },
-      { name: "Kaila Schiffl ('25)", link: "#" },
-      { name: "Kawai Kelekolio ('21)", link: "#" },
-      { name: "Ms. Berman (Template)", link: "#" }
+      { name: "Isiah Tanaka ('25)", link: "https://sites.google.com/view/itanaka-stem-portfolio/home" },
+      { name: "Kaila Schiffl ('25)", link: "https://sites.google.com/punahou.edu/kschiffl25engineeringportfolio/engineering-v-24-25/ke-kilohana" },
+      { name: "Kawai Kelekolio ('21)", link: "https://sites.google.com/punahou.edu/kelekolioportfolio/background" },
+      { name: "Ms. Berman (Template)", link: "https://sites.google.com/punahou.edu/berman-portfolio/home" }
     ]
   }
 
