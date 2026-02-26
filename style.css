@@ -45,7 +45,7 @@ header {
   margin-left: 30px;
   text-decoration: none;
   font-size: 12pt;
-  font-weight: 300; /* Light by default */
+  font-weight: 250; /* Light by default */
   color: #000000; /* Same as title */
 }
 
@@ -75,20 +75,20 @@ h1 {
 /* ============================= */
 
 .banner {
-  background-color: #d9edf7;
-  padding: 10px 1in;
-  font-size: 12pt;
+  background-color: #d8eaf2;
+  padding: 20px 1in;
+  font-size: 11pt;
   font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 12px;
+  gap: 20px;
 }
 
 .banner-btn {
-  border: 1.5px solid #333;
+  border: 1px solid #333;
   padding: 7px 24px;
-  font-size: 12pt;
+  font-size: 11pt;
   font-weight: 500;
   text-decoration: none;
   color: #333;
@@ -150,7 +150,7 @@ h2 {
   background-color: #f0f0f0;
   padding: 18px 1.75in;
   margin: 30px -1.75in 10px -1.75in;
-  font-size: 12pt;
+  font-size: 11pt;
   font-weight: 400;
 }
 
@@ -164,7 +164,7 @@ section {
 
 ul {
   list-style: none;
-  padding-left: 1in;
+  padding-left: 0in;
 }
 
 /* ============================= */
@@ -173,7 +173,7 @@ ul {
 
 li {
   margin: 16px 0;
-  font-size: 12pt;
+  font-size: 11pt;
 }
 
 a {
